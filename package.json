@@ -1,0 +1,24 @@
+{
+  "name": "backend-sistema-credito",
+  "version": "1.0.0",
+  "description": "Backend sistema de cotizacion de credito",
+  "repository": "https://github.com/felipe-parra/backend-sistema-credito-v1.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felipe Parra <felipeparraramirez@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
